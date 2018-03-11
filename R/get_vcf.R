@@ -38,6 +38,7 @@
 #' vcf <- get_vcf(chrom = "12", start = 533090, end = 623090, pop = "AFR")
 #' names(vcf)
 #'  
+#' @importFrom RCurl getURL
 #' @export
 get_vcf <- function(chrom, start, end, pop = NA) {
   

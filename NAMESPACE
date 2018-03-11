@@ -3,3 +3,5 @@
 export(compute_ld)
 export(get_proxies)
 export(get_vcf)
+importFrom(RCurl,getURL)
+importFrom(myvariant,queryVariant)

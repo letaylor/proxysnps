@@ -38,7 +38,8 @@
 #' @examples
 #' d <- get_proxies(chrom = "12", pos = 583090, window_size = 1e5, pop = "AFR")
 #' head(d)
-#'  
+#' 
+#' @importFrom myvariant queryVariant
 #' @export
 get_proxies <- function(
   chrom = NA, pos = NA, query = NA, window_size = 1e5, pop = NA) {
